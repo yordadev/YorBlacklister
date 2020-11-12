@@ -1,0 +1,31 @@
+{
+  "name": "yorblacklister",
+  "version": "1.0.0",
+  "description": "A utility nodejs application that investigates your nginx access log capturing any redflags and updating your cloudflare blacklist.",
+  "main": "yorblacklister.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yordadev/YorBlacklister.git"
+  },
+  "keywords": [
+    "cloudflare",
+    "utility",
+    "tool",
+    "nodejs"
+  ],
+  "author": "yorda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yordadev/YorBlacklister/issues"
+  },
+  "homepage": "https://github.com/yordadev/YorBlacklister#readme",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
