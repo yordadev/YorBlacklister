@@ -31,9 +31,9 @@ cp lib/Example.Config.js lib/Config.js
 
 #### Retrieve CloudFlare API key and list IDs
 
-- Retrieve your cloudflare [key here](https://support.cloudflare.com/hc/en-us/articles/200167836-Managing-API-Tokens-and-Keys#12345682)
+- Retrieve your CloudFlare [key here](https://support.cloudflare.com/hc/en-us/articles/200167836-Managing-API-Tokens-and-Keys#12345682)
 
-- Get your CloudFlare account and list id's; if you cannot find them, you will need to consume the methods included in the cloudflare class to get them.
+- Get your CloudFlare account and list ID's; if you cannot find them, you will need to consume the methods included in the CloudFlare class to get them.
 
 #### Modify `lib/Config.js`
 
