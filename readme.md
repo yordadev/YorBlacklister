@@ -41,7 +41,3 @@ This project is a expirmental utility nodejs application that investigates nginx
 
     ```
 
-## Unit Test Screenshot 
-
-![redflag demo screenshot](https://i.gyazo.com/cc532bc8b391e02d613350f31e0a93f9.png)
-
