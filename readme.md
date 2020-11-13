@@ -41,3 +41,6 @@ This project is a expirmental utility nodejs application that investigates nginx
 
     ```
 
+## Redflag Demo Screenshot 
+
+![redflag demo screenshot](https://github.com/yordadev/YorBlacklister/blob/master/resources/redflags.png)
