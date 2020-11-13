@@ -44,7 +44,7 @@ class Config {
         this.file_path = "../logs/access.log"; // See the next step 
         this.email = ""; // CloudFlare email
         this.key = "";   // CloudFlare key
-        this.account_id = ""; // cloudflare account_id
+        this.account_id = ""; // CloudFlare account_id
         this.list_id = ""; // CloudFlare list id for your blacklist
         this.limit = 4; // red-flag if IP occurrences on 301 code over limit
     }
