@@ -31,22 +31,22 @@ cp lib/Example.Config.js lib/Config.js
 
 #### Retrieve CloudFlare API key and list IDs
 
-- Retrieve your cloudflare [key here](https://support.cloudflare.com/hc/en-us/articles/200167836-Managing-API-Tokens-and-Keys#12345682)
+- Retrieve your CloudFlare [key here](https://support.cloudflare.com/hc/en-us/articles/200167836-Managing-API-Tokens-and-Keys#12345682)
 
-- Get your CloudFlare account and list id's; if you cannot find them, you will need to consume the methods included in the cloudflare class to get them.
+- Get your CloudFlare account and list ID's; if you cannot find them, you will need to consume the methods included in the CloudFlare class to get them.
 
 #### Modify `lib/Config.js`
 
 ```js
-class Confg {
+class Config {
     constructor() {
-        this.codes = ["301", "400", "404"]; // set whatever codes you want to watch for being excessively hit
+        this.codes = ["301", "400", "404"]; // Set whatever codes you want to watch for being excessively hit
         this.file_path = "../logs/access.log"; // See the next step 
-        this.email = ""; // cloudflare email
-        this.key = "";   // cloudflare key
-        this.account_id = ""; // cloudflare account_id
-        this.list_id = ""; // cloudflare list id for your blacklist
-        this.limit = 4; // redflag if ip occurences on 301 code over limit
+        this.email = ""; // CloudFlare email
+        this.key = "";   // CloudFlare key
+        this.account_id = ""; // CloudFlare account_id
+        this.list_id = ""; // CloudFlare list id for your blacklist
+        this.limit = 4; // red-flag if IP occurrences on 301 code over limit
     }
 }
 ```
